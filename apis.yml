@@ -1,7 +1,27 @@
 aid: nectar
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nectar.png
 name: Nectar
-description: Nectar is a company surfaced as a portfolio company of obvious-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Nectar (Nectar Life Sciences) is a hybrid, vertically-integrated allergy
+  care platform combining at-home testing with in-person clinical care. Patients can
+  self-test for dozens of indoor and outdoor environmental allergens using mail-in
+  home kits, then receive personalized treatment including sublingual immunotherapy
+  (allergy drops), prescription nasal sprays, rescue inhalers, and allergy shots.
+  Its flagship Nectar Allergy Center in New York City treats adults and children for
+  environmental allergies, asthma, food allergies, and eczema, alongside virtual
+  telehealth appointments. Nectar is a consumer healthcare provider with no public
+  developer API surface; it was backed by Obvious Ventures, Juxtapose, and Harmony
+  Partners.
 url: https://raw.githubusercontent.com/api-evangelist/nectar/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Healthcare
+- Health Technology
+- Allergy
+- Telehealth
+- Immunotherapy
+- Consumer Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/nectar-domain-security.yml
 - type: Website
   url: https://mynectar.com
+- type: Blog
+  url: https://mynectar.com/blog
+- type: Support
+  url: https://support.mynectar.com/hc/en-us
+- type: SignUp
+  url: https://dashboard.mynectar.com/booking
+- type: TermsOfService
+  url: https://mynectar.com/terms
+- type: PrivacyPolicy
+  url: https://mynectar.com/privacy
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 1
+  pass: local-v1
